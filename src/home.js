@@ -8,10 +8,10 @@ function loadHome() {
     // alert("Home Loaded!")
     
 
-    let header = document.querySelector("header")
-    let title = document.createElement("h1");
-    title.textContent = "Guy's Pies";
-    header.prepend(title);
+    // let header = document.querySelector("header")
+    // let title = document.createElement("h1");
+    // title.textContent = "Guy's Pies";
+    // header.prepend(title);
 
     let welcomeText = document.createElement("p");
     welcomeText.textContent = "Welcome to Guy's Pies! These will be the best pies you've ever had, or your money back. We have pies for every occasion or if you're just in the mood for a sweet treat. Stop on in or order online. We deliver!";
