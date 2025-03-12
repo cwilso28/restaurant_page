@@ -1,4 +1,4 @@
-function loadMenu() {
+function menuContent() {
     let divContainer = document.getElementById("content");
 
     let itemOneContainer = document.createElement("div");
@@ -23,4 +23,4 @@ function loadMenu() {
     itemThreeContainer.append(itemThreeDisc);
 }
 
-export { loadMenu }
+export { menuContent }

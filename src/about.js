@@ -1,4 +1,4 @@
-function loadAbout () {
+function aboutContent () {
     let aboutContainer = document.getElementById("content");
 
     let header = document.createElement("h1");
@@ -7,4 +7,4 @@ function loadAbout () {
     aboutContainer.append(header);
 }
 
-export { loadAbout };
+export { aboutContent };

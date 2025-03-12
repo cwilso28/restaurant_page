@@ -2,7 +2,7 @@
 
 import pieImage from "./hugo-aitken-PqYvDBwpXpU-unsplash.jpg";
 
-function loadHome() {   
+function homeContent() {   
 
     let contentDiv = document.getElementById("content");
     // alert("Home Loaded!")
@@ -31,4 +31,4 @@ function loadHome() {
     imageDiv.append(imageAttr);
 }
 
-export { loadHome }
+export { homeContent }
