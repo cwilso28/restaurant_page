@@ -1,3 +1,5 @@
+// This module hosts the home page information for the website.
+
 import pieImage from "./hugo-aitken-PqYvDBwpXpU-unsplash.jpg";
 
 function loadHome() {   
