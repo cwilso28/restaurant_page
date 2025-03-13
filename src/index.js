@@ -41,6 +41,6 @@ aboutButtonContainer.addEventListener("click", function(e) {
 
 
 // aboutContent();
-// loadMenu();
-loadHome();
+loadMenu();
+// loadHome();
 
