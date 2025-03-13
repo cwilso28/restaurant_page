@@ -15,6 +15,7 @@ function homeContent() {
 
     let welcomeText = document.createElement("p");
     welcomeText.textContent = "Welcome to Guy's Pies! These will be the best pies you've ever had, or your money back. We have pies for every occasion or if you're just in the mood for a sweet treat. Stop on in or order online. We deliver!";
+    welcomeText.id = "welcome-text";
     contentDiv.append(welcomeText);
 
     let imageDiv = document.createElement("div");
