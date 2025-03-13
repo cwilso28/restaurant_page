@@ -10,14 +10,24 @@
   height: auto;
 }
 
+#img-container {
+  display: block;
+  align-self: center;
+}
+
 #content {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(255, 193, 101);
   width: 1200px;
   height: 100%;
   align-self: center;
   padding: 20px;
   justify-items: center;
+  gap: 20px;
 }
+
+
 
 body {
   display: flex;
@@ -58,3 +68,9 @@ button:active {
   background-color: rgb(185, 140, 73);
 }
 
+#menu-container {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 80% 20%;
+}
