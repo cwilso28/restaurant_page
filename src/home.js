@@ -19,6 +19,7 @@ function homeContent() {
     contentDiv.append(welcomeText);
 
     let imageDiv = document.createElement("div");
+    imageDiv.id = "img-container";
     contentDiv.append(imageDiv);
     
     let image = document.createElement("img");
