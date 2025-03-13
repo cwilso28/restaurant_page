@@ -1,4 +1,60 @@
+* {
+  margin: 0;
+  border: 1px solid black;
+  /* border: 0; */
+  box-sizing: border-box;
+}
+
 #home-img {
-  width: 200px;
+  width: 400px;
   height: auto;
 }
+
+#content {
+  background-color: rgb(255, 193, 101);
+  width: 1200px;
+  height: 100%;
+  align-self: center;
+  padding: 20px;
+  justify-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(71, 71, 71);
+  padding: 5px 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  /* gap: 20px; */
+}
+
+header > h1 {
+  color: white;
+  font-size: 3em;
+}
+
+#welcome-text {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+button {
+  font-size: 2em;
+  width: 150px;
+  background-color: rgb(255, 193, 101);
+}
+
+button:hover {
+  background-color: rgb(212, 161, 85);
+}
+
+button:active {
+  background-color: rgb(185, 140, 73);
+}
+
