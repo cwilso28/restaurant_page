@@ -1,3 +1,35 @@
+// class menuItem {
+//     constructor(name, description, image) {
+//         this.name;
+//         this.description;
+//         this.image;
+//     }
+
+//     itemDesc = document.createElement("p");
+//     itemDesc.textContent = this.description;
+// }
+
+function menuItem(name, description, image, image_description) {
+    let itemContainer = document.createElement("div");
+    itemContainer.id = "menu-container";
+    
+    let itemHeader = document.createElement("h2");
+    itemHeader.textContent = name;
+
+    let itemDesc = document.createElement("p");
+    itemDesc.textContent = description;
+
+    let itemImage = document.createElement("img");
+    itemImage.src = image;
+    itemImage.alt = image_description;
+
+    itemContainer.append(itemHeader);
+    itemContainer.append(itemDesc);
+    itemContainer.append(itemImage);
+
+    return {itemContainer};
+}
+
 function menuContent() {
     let divContainer = document.getElementById("content");
 
@@ -21,6 +53,7 @@ function menuContent() {
     itemOneDisc.textContent = "This is our apple pie. It's a modern take on a classic recipe! You won't be disappointed. WARNING! CONTAINS APPLES.";
     itemOneContainer.append(itemOneDisc);
     itemOneImg.src = "www.example.com";
+    itemOneImg.alt = "Apple pie";
     itemOneContainer.append(itemOneImg);
 
     let itemTwoDisc = document.createElement("p");
